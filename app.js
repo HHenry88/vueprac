@@ -29,6 +29,9 @@ new Vue({
     },
     clickedWebsite: function(){
       alert('hi');
+    },
+    logName: function(){
+      console.log('you entered your name');
     }
   }
 });
