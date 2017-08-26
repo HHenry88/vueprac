@@ -16,12 +16,16 @@
     <input type="text" v-bind:value="name" placeholder="What's your name?">
     <p v-html="websiteTag"></p>
     <h1>Keyboard Events</h1>
+    <!--  need to use alt + enter event modifiers-->
     <input type="text" v-on:keyup.alt.enter="logName">
     <h1>Events</h1>
     <button v-on:dblclick="add">Add a year</button>
     <button v-on:click.once="subtract">Subtract a year</button>
     <p>My age is {{age}}</p>
     <div id="canvas" v-on:mousemove="updateXY">{{ x }}, {{ y }}</div>
+    <h1>2 way data binding</h1>
+    <input type="text" v-model="newName">
+    <span>{{ newName }}</span>
   </div>
 
     <script src="app.js"></script>

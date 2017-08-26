@@ -9,7 +9,9 @@ new Vue({
     website: `http://github.com/HHenry88`,
     websiteTag: `<a href="http://github.com/HHenry88">My website tag</a>`,
     x: 0,
-    y: 0
+    y: 0,
+    newName: '',
+    newAge: ''
   },
   methods: {
     //if using arrow functions, will not get this. this will not be the method.
