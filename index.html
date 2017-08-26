@@ -10,6 +10,10 @@
     <h1>{{name}}</h1>
     <h2>{{job}}</h2>
     <h3>{{ welcome('hello') }}</h3>
+    <a v-bind:href="website">The website</a>
+    <a :href="website">The website</a>
+    <input type="text" v-bind:value="name" placeholder="What's your name?">
+    <p v-html="websiteTag"></p>
   </div>
 
     <script src="app.js"></script>

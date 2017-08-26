@@ -5,6 +5,8 @@ new Vue({
   data: {
     name: 'Henryyy',
     job:`developerrr`,
+    website: `http://github.com/HHenry88`,
+    websiteTag: `<a href="http://github.com/HHenry88">My website tag</a>`
   },
   methods: {
     //if using arrow functions, will not get this. this will not be the method.
